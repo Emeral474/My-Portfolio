@@ -555,4 +555,66 @@ footer {
     justify-content: space-between;
 }
 
+.col { 
+    flex-basis: 25%; 
+    padding: 10px; 
+    animation: slideTop 1s ease forwards;
+}
+
+.col:nth-child(2), .col:nth-child(3) { 
+    flex-basis: 15%; 
+    animation: slideRight 1s ease forwards; 
+}
+
+.logo1 { 
+    width: 10rem; 
+    margin-top: -20px; 
+    margin-bottom: 20px; 
+    animation: slideTop 1s ease forwards;
+}
+
+.col h3 { 
+    width: fit-content; 
+    margin-bottom: 40px; 
+    position: relative; 
+    animation: slideLeft 1s ease forwards;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid #ccc; 
+    margin: 20px 0; 
+} 
+
+footer ul li { 
+    list-style: none; 
+    margin-bottom: 12px;
+}
+
+footer ul li a { 
+    text-decoration: none; 
+    color: #fff; 
+}
+
+footer ul li a:hover { 
+    color: #0ef;
+}
+
+footer form { 
+    padding-bottom: 15px; 
+    display: flex; 
+    align-items: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
 
