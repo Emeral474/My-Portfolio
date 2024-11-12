@@ -1,1 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Times New Roman', sans-serif;
+}
+body{
+    color: #dedede; 
+    background: black;
+}
+.header{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px 10%; 
+    background: #051129; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    z-index: 100;
+}
+
+.logo{
+    width: 8rem; 
+    animation: slideRight 1s ease forwards; 
+    cursor: pointer;
+}
+.navbar a{
+    display: inline-block; 
+    font-size: 20px; 
+    color: #fff; 
+    text-decoration: none; 
+    font-weight: 500; 
+    margin-left: 20px; 
+    transition: .3s; 
+    opacity: 0; 
+    animation: slideTop .5s ease forwards; 
+    animation-delay: calc(.25s * var(--i));
+} 
+.navbar a:hover { 
+    color: #0ef; }
+}
+.home{
+    position: relative; 
+    width: 100%; 
+    justify-content: space-between; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px; 
+    margin-top: 3rem; 
+    margin-left: -50px;
+}
+.home-content h3{
+    font-size: 32px; 
+    font-weight: 700; 
+    font-family: 'Times New Roman'; 
+    opacity: 0; 
+    animation: slideBottom 1s ease forwards; 
+    animation-delay: .75s;
+
+}
+.home-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+.home-content h3 span{
+    color: gold;
+}
+.home-content h1{
+    font-size: 46px; 
+    font-weight: 700; 
+    font-family: 'Algerian'; 
+    margin: -3px 0; 
+    opacity: 0; 
+    animation: SlideRight 1s ease forwards; 
+    animation-delay: 1s;
+}
+.great:hover{
+    color: aqua; 
+    cursor: pointer;
+}
+.create{
+    font-family: 'Algerian';
+}
+.create:hover{ 
+    color: gold; 
+    font-family: 'Algerian';
+
+}
+.home-content pre{
+    font-size: 20px; 
+    opacity: 0; 
+    animation: slideLeft 1s ease forwards; 
+    animation-delay: 1s;
+}
+.home-sci a{
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    background: transparent; 
+    border: 2px solid #0ef; 
+    border-radius: 50%; 
+    font-size: 20px; 
+    color: #0ef; 
+    text-decoration: none; 
+    transition: .5s ease; 
+    opacity: 0; 
+    animation: slideLeft 1s ease forwards; 
+    animation-delay: calc(.2s * var(--i)); 
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+    background: #0ef; 
+    color: #8b129; 
+    box-shadow: 0 0 20px deeppink;
+}
+.btn-box {
+    display: inline-block; 
+    padding: 12px 28px; 
+    background: #0ef; 
+    border-radius: 40px; 
+    font-size: 16px; 
+    color: #8b129; 
+    letter-spacing: 1px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    opacity: 0; 
+    animation: slideTop 1s ease forwards; 
+    animation-delay: 2s; 
+    box-shadow: 0 0 5px #0ef, 
+    0 0 25px #ddf;
+}
+.btn-box : hover {
+    box-shadow: 0 0 5px cyan
+    0 0 5px cyan, 0 0 25px cyan, 
+    0 0 25px cyan, 0 0 50px cyan;
+}
+
+.front-img 
+{
+    position: absolute; 
+    width: 20%; 
+    height: 40%; 
+    margin-top: -21rem; 
+    margin-left: 37rem; 
+    cursor: pointer; 
+    transition: 5s; 
+    border-radius: 50%;
+    box-shadow: 1px 2px 10px 7px bisque, 4px 5px 15px 10px #eee, 6px 5px 17px 9px aqua;
+}
+.front-img:hover 
+{
+    width: 20%; 
+    height: 40%; 
+    margin-top: -20rem;
+    margin-Left: 37rem;
+    transform: scale (1.4);
+    transition: 5s;
+    box-shadow: 1px 2px 10px 5px cyan, 4px 5px 15px 7px white, 6px 5px 17px 9px deeppink;
+
 
