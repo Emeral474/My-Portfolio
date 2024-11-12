@@ -166,5 +166,34 @@ body{
     transform: scale (1.4);
     transition: 5s;
     box-shadow: 1px 2px 10px 5px cyan, 4px 5px 15px 7px white, 6px 5px 17px 9px deeppink;
+}
+.about{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    align-items: center; 
+    margin-bottom: 30px; 
+    margin-left: -25px;
+}
+
+.about-img img{
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    margin-top: 50px; 
+    margin-left: 40px; 
+    transition: 0.1s ease;
+}
+.about-img img:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 5px cyan, 0 0 25px cyan,
+    0 0 25px cyan, 0 0 50px cyan
+}
+
+
+
+
+
+
 
 
