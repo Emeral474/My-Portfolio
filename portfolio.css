@@ -208,9 +208,49 @@ body{
     color: #fff; 
     line-height: 1.7; 
     margin: 5px 0 5px 90px;
-
-
-
+}
+h4:hover 
+{ 
+    color: rgb(251, 217, 22); 
+    cursor: pointer; 
+} 
+.about-text pre { 
+    color: aliceblue; 
+    font-size: 20px; 
+    line-height: 1.4; 
+    margin-bottom: 2rem; 
+} 
+.about-text a { 
+    margin-left: 90px; 
+} 
+#skills { 
+    color: aliceblue; 
+    font-size: 20px; 
+    line-height: 1.4; 
+    margin-bottom: 4rem; 
+}
+.sub-title { 
+    text-align: center;
+    font-size: 60px; 
+    padding-bottom: 70px; 
+} 
+.sub-title span { 
+    color: #0ef; 
+} 
+.sub-title span:hover 
+{ 
+    color: gold; 
+    cursor: pointer; 
+} 
+.container { 
+    padding: 90px; 
+} 
+.skills-list { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr)); 
+    grid-gap: 40px; 
+    margin-top: 50px;
+}
 
 
 
