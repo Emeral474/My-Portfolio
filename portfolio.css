@@ -251,7 +251,28 @@ h4:hover
     grid-gap: 40px; 
     margin-top: 50px;
 }
-
-
-
-
+.skills-list div { 
+    background-color: transparent; 
+    padding: 40px; 
+    font-size: 13px; 
+    font-weight: 13px; 
+    border-right: 10px; 
+    border-radius: 20px; 
+    transition: background 0.5s, transform 0.5s; 
+    box-shadow: 1px 1px 20px #012290f7, 
+        1px 1px 40px #0053b8f7;
+}
+.skills-list div i { 
+    font-size: 50px; 
+    margin-bottom: 30px; 
+} 
+.skills-list div h2 { 
+    font-size: 23px; 
+    font-weight: 500; 
+    font-size: 23px;  
+} 
+.skills-list div a { 
+    text-decoration: none; 
+    color: #000;
+    font-size: 12px; 
+     
