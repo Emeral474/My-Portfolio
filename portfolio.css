@@ -604,8 +604,54 @@ footer form {
     padding-bottom: 15px; 
     display: flex; 
     align-items: center;
+    justify-content: space-between; 
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 50px;
+}
 
+footer form .fas { 
+    font-size: 18px; 
+    margin-right: 10px; 
+}
 
+footer form input { 
+    width: 100%; 
+    background: transparent; 
+    color: #ccc; 
+    border: 0; 
+    outline: none;
+}
+footer form button { 
+    background: transparent; 
+    border: 0; 
+    outline: none;
+    cursor: pointer;
+}
+footer form button .fas { 
+    font-size: 16px; 
+    color: #ccc;
+ }
+
+.social-icons .fab { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    text-align: center; 
+    line-height: 35px; 
+    font-size: 20px; 
+    color: #0ef; 
+    background: transparent; 
+    border: 2px solid #0ef; 
+    margin-right: 5px; 
+    cursor: pointer; 
+    animation: slideLeft 1s ease forwards;
+}
+
+.social-icons .fab:hover { 
+    background: #0ef; 
+    color: #081b29; 
+    box-shadow: 0 0 20px #0ef;
+}
 
 
 
