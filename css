@@ -1,1 +1,101 @@
-
+.home{ 
+    position: relative; 
+    width: 100%; 
+    justify-content: center; 
+    height: 100vh; 
+    display: flex; 
+    align-items: center; 
+    padding: 70px 10% 0;
+}
+.home-content{
+    max-width: 600px; 
+    margin-top: 3rem; 
+    margin-left: 100px;
+    
+}
+.home-content h1{
+    font-size: 32px; 
+    font-weight: 700; 
+    font-family: 'Times New Roman'; 
+    opacity: 0; 
+    animation: slideBottom 1s ease forwards; 
+    animation-delay: .75s;
+    
+}
+.home-content h1:nth-of-type(2){
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+.home-content h3 span{
+    color: gold;
+}
+.home-content h3{
+    font-size: 46px; 
+    font-weight: 700; 
+    font-family: 'Algerian'; 
+    margin: -3px 0; 
+    opacity: 0; 
+    animation: SlideRight 1s ease forwards; 
+    animation-delay: 1s;
+}
+.great:hover{
+    color: aqua; 
+    cursor: pointer;
+}
+.create{
+    font-family: 'Algerian';
+}
+.create:hover{ 
+    color: gold; 
+    font-family: 'Algerian';
+}
+.home-content pre{
+    font-size: 20px; 
+    opacity: 0; 
+    animation: slideLeft 1s ease forwards; 
+    animation-delay: 1s;
+}
+.home-sci a{
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 40px; 
+    height: 40px; 
+    background: transparent; 
+    border: 2px solid #0ef; 
+    border-radius: 50%; 
+    font-size: 20px; 
+    color: #0ef; 
+    text-decoration: none; 
+    transition: .5s ease; 
+    opacity: 0; 
+    animation: slideLeft 1s ease forwards; 
+    animation-delay: calc(.2s * var(--i)); 
+    margin: 30px 15px 30px 0;
+}
+.home-sci a:hover {
+    background: #0ef; 
+    color: #8b129; 
+    box-shadow: 0 0 20px deeppink;
+}
+.btn-box {
+    display: inline-block; 
+    padding: 12px 28px; 
+    background: #0ef; 
+    border-radius: 40px; 
+    font-size: 16px; 
+    color: #8b129; 
+    letter-spacing: 1px; 
+    text-decoration: none; 
+    font-weight: 600; 
+    opacity: 0; 
+    animation: slideTop 1s ease forwards; 
+    animation-delay: 2s; 
+    box-shadow: 0 0 5px #0ef, 
+    0 0 25px #ddf;
+}
+.btn-box : hover {
+    box-shadow: 0 0 5px cyan
+    0 0 5px cyan, 0 0 25px cyan, 
+    0 0 25px cyan, 0 0 50px cyan;
